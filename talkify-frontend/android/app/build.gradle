@@ -1,0 +1,52 @@
+// android/app/build.gradle
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace "com.flekh.talkify"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.flekh.talkify"
+        minSdk 24
+        targetSdk 35
+        versionCode flutter.versionCode.toInteger()
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Core library desugaring for flutter_local_notifications
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+    
+    // Firebase BOM ensures compatible versions automatically
+    implementation platform("com.google.firebase:firebase-bom:34.4.0")
+
+    // Firebase libraries (managed by BOM)
+    implementation("com.google.firebase:firebase-analytics")
+}

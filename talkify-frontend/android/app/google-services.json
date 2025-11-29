@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653812611409",
+    "project_id": "talkify-8144d",
+    "storage_bucket": "talkify-8144d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653812611409:android:98407c4b97e94610e2bb70",
+        "android_client_info": {
+          "package_name": "com.flekh.talkify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxi2Vywfyr9cgzUiSEdMS07hDgjEWnitI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

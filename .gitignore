@@ -1,0 +1,88 @@
+# AI-generated documentation files
+BACKEND_SETUP.md
+BUNDLE_ID_CHANGE_SUMMARY.md
+CALL_FUNCTIONALITY_SUMMARY.md
+CALL_STATUS_FIX_SUMMARY.md
+CRITICAL_ISSUES_FOUND.md
+DATABASE_INTEGRATION_SUMMARY.md
+FINAL_IMPLEMENTATION_SUMMARY.md
+INCOMING_CALL_NOTIFICATION_FEATURE.md
+ios_entitlements_setup.md
+PUSH_NOTIFICATIONS_SETUP_GUIDE.md
+SOCKET_INTEGRATION_SUMMARY.md
+VIDEO_CALL_COMPLETE_FIX_SUMMARY.md
+VIDEO_IMPLEMENTATION_SUMMARY.md
+*_SUMMARY.md
+*_GUIDE.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+
+# Android
+*.jks
+*.keystore
+local.properties
+android/app/google-services.json
+android/key.properties
+
+# iOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/.sconsign.dblite
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/Podfile.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.env.local
+.env.*.local
+
+# Firebase
+serviceAccountKey.json
+firebase-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
