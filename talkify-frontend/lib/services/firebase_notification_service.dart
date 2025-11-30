@@ -160,7 +160,7 @@ class FirebaseNotificationService {
     try {
       
       await http.post(
-        Uri.parse('http://192.168.0.229:3000/api/fcm-token'),
+        Uri.parse('http://192.168.0.229:3008/api/fcm-token'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({
           'userId': userId,

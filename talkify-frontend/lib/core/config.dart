@@ -2,7 +2,7 @@
 /// Contains all configuration constants for the app
 class AppConfig {
   // Backend Configuration
-  static const String backendBaseUrl = 'http://192.168.0.229:3000';
+  static const String backendBaseUrl = 'http://192.168.0.229:3008';
   static const String apiBaseUrl = '$backendBaseUrl/api';
   static const String socketBaseUrl = backendBaseUrl;
   
